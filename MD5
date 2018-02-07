@@ -1,0 +1,16 @@
+242c332f305d25a8fefa52e6da773e04 *DESCRIPTION
+d7f7092c6f40618df29b7a064ca21d2e *LICENSE
+d905fcf0417d8a33b35adda6c2b5a49d *NAMESPACE
+f70debd41df5c1ed6a2c88ef103864aa *NEWS.md
+5bb0067cfec76a395fd61c9c2dd6e1ab *R/tz_lookup.R
+f1f7036ba5e9338ca0940e1c8282ae0d *R/v8_ctx.R
+46dfbec64a3af7b559d98c19b21f2803 *README.md
+d96662204218119095ad1936d3c67fa6 *inst/Rtzlookup.js
+f5d58013fb6518037072c92c53bac0d8 *inst/tz-lookup/README.md
+2150b66a91bc30218a57e9e085818d9e *inst/tz-lookup/tz.js
+aefec4fe5560e94dc94c023330ca33cb *man/tz_lookup.Rd
+6c73b6c21fc15d068a4cb462dc16f98a *man/tz_lookup_coords.Rd
+8451148afd8cd8550b68fe20e7b1377d *tests/testthat.R
+0e366fc3eef7a2fe5048156fb5d3f0ed *tests/testthat/test-tz_lookup.R
+dfd94e76c2e0837e004414667677b72d *tools/readme/unnamed-chunk-3-1.png
+eaf2827ecf3a0cc06b8a7e948603a12c *tools/readme/unnamed-chunk-4-1.png
