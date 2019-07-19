@@ -1,13 +1,13 @@
-0aa153ee86469ff2920b5f55855de36e *DESCRIPTION
+bac7c8f50fe06cf0fc4fe91d69086cec *DESCRIPTION
 d7f7092c6f40618df29b7a064ca21d2e *LICENSE
 b4c559d8f0c97956e09078ceb68f622a *NAMESPACE
-7bee453b4219fa3336ba6ccbe155e205 *NEWS.md
+9aaf975873f50821a2fa57cb9a32fde9 *NEWS.md
 98a4c0229fcdf48bac51d411f66a6582 *R/RcppExports.R
 f2fa02632529bdc8e94366b4bdf55183 *R/lutz-package.R
-0a4378cfa97ca6f8a63371efbcfefeb4 *R/olson.R
+9a6c5c310260fca3b1c8679206943a95 *R/olson.R
 0efcf721137f04444f97045fd8d37260 *R/sysdata.rda
 3ffe837039185fecb5f5eab0b13416d5 *R/tz_lookup.R
-6cdb34ef4df7e8de7af0da113962a67c *R/utils.R
+4fde46bc28a557b286ae07bbd46635d1 *R/utils.R
 88eac2d14b517b619e6fc8fa803039e3 *R/zzz.R
 3be6fbae98e5033bee63a4a83f84adb5 *README.md
 7550b57593fe1220827f131a1648fc25 *man/figures/unnamed-chunk-11-1.png
@@ -26,7 +26,7 @@ a42d17f4918fb42b7d893351477b2ad4 *src/RcppExports.cpp
 d8b751b47759e445a614c9d20dbbbe3f *src/generated-vars.h
 b44ceb2f48e8d817f406e4059159c9f3 *src/tz.cpp
 8451148afd8cd8550b68fe20e7b1377d *tests/testthat.R
-a0d0626330a09ec46f59a9af520800d6 *tests/testthat/test-olson.R
+61724f45418ec7bc1d6cb4ecc35dc8b4 *tests/testthat/test-olson.R
 21ca71a5675374900e296ae34f998299 *tests/testthat/test-tz-lookup-edge.R
 4d1b825160e658e84ce8f20977e5e8bd *tests/testthat/test-tz_lookup.R
 79f35646caa7e1fc2a7b850335d12ad3 *tests/testthat/test-tz_lookup2.R

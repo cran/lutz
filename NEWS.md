@@ -1,3 +1,7 @@
+# lutz 0.3.1
+
+* Fixed bug where invalid timezones would cause `tz_list()` to fail.
+
 # lutz 0.3.0
 
 * V8-based 'fast' method was ported to use Rcpp - it is now even faster, and
