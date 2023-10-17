@@ -1,7 +1,7 @@
 Package: lutz
 Type: Package
 Title: Look Up Time Zones of Point Coordinates
-Version: 0.3.1
+Version: 0.3.2
 Authors@R: c(
       person("Andy", "Teucher", email = "andy.teucher@gmail.com", role = c("aut", "cre"), 
              comment = c(ORCID = "0000-0002-7840-692X")),
@@ -11,7 +11,7 @@ Authors@R: c(
 Description: Input latitude and longitude values or an 'sf/sfc' POINT 
     object and get back the time zone in which they exist. Two methods are implemented. 
     One is very fast and uses 'Rcpp' in conjunction with data from the 'Javascript' library
-    (<https://github.com/darkskyapp/tz-lookup/>). This method also works outside of countries' 
+    (<https://github.com/darkskyapp/tz-lookup-oss/>). This method also works outside of countries' 
     borders and in international waters, however speed comes at the cost of accuracy - near time 
     zone borders away from populated centres there is a chance that it will return the incorrect
     time zone. The other method is slower but more accurate - it uses the 'sf' package to intersect 
@@ -23,21 +23,18 @@ Description: Input latitude and longitude values or an 'sf/sfc' POINT
     time zone to visualize the UTC offset over a year and when daylight savings 
     times are in effect.
 License: MIT + file LICENSE
-URL: https://andyteucher.ca/lutz
+URL: https://andyteucher.ca/lutz/, https://github.com/ateucher/lutz
 BugReports: https://github.com/ateucher/lutz/issues
-SystemRequirements: C++11
 Depends: R (>= 3.2)
 Imports: stats, Rcpp, lubridate
-Suggests: testthat (>= 2.1.0), sf (>= 0.7), sp, rgdal, datasets, covr,
-        ggplot2
+Suggests: testthat (>= 2.1.0), sf (>= 0.7), sp, datasets, covr, ggplot2
 Encoding: UTF-8
-LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.2.3
 LinkingTo: Rcpp
 NeedsCompilation: yes
-Packaged: 2019-07-19 17:40:58 UTC; ateucher
+Packaged: 2023-10-17 20:03:48 UTC; andy
 Author: Andy Teucher [aut, cre] (<https://orcid.org/0000-0002-7840-692X>),
   Bob Rudis [ctb] (<https://orcid.org/0000-0001-5670-2640>)
 Maintainer: Andy Teucher <andy.teucher@gmail.com>
 Repository: CRAN
-Date/Publication: 2019-07-19 22:10:03 UTC
+Date/Publication: 2023-10-17 20:30:02 UTC

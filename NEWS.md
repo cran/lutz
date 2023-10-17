@@ -1,3 +1,8 @@
+# lutz 0.3.2
+
+This is a maintenance release, with no new features. The rgdal package was 
+removed as a Suggested package, as it has been archived on CRAN.
+
 # lutz 0.3.1
 
 * Fixed bug where invalid timezones would cause `tz_list()` to fail.
